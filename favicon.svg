@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Stellar Forge">
+  <!-- Cozy-cosmos app icon (ADR-0017 / art-bible §16): the Forge hexagon + luminous white→gold→amber
+       core + teal halo, on the never-black ink-blue base. Legible at 32px. -->
+  <defs>
+    <radialGradient id="sfCore" cx="42%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#fff6dd"/>
+      <stop offset="45%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#e8742a"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="#0b1026"/>
+  <circle cx="32" cy="32" r="21" fill="#35e0c8" opacity="0.15"/>
+  <path d="M32 11 L50 21.5 L50 42.5 L32 53 L14 42.5 L14 21.5 Z"
+        fill="none" stroke="#ffd166" stroke-width="2.6" stroke-linejoin="round" opacity="0.9"/>
+  <circle cx="32" cy="32" r="11.5" fill="url(#sfCore)"/>
+  <circle cx="32" cy="32" r="11.5" fill="none" stroke="#fff6dd" stroke-width="1" opacity="0.5"/>
+</svg>
